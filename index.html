@@ -89,26 +89,26 @@
                 let SK = sk1 + sk2;
                 if (SK == document.getElementById("atbilde").value) {
                     document.getElementById("parbaude").innerHTML = "Pareizi!";
-                } else { document.getElementById("parbaude").innerHTML = "Nepareizi!" }
+                } else { document.getElementById("parbaude").innerHTML = "Nepareizi! Pareizā  atbilde ir " + SK+"!" }
                 console.log(sk1 + sk2);
             } else if (darbiba == db[1]) {
                 let SK = sk1 - sk2;
                 console.log(SK);
                 if (SK == document.getElementById("atbilde").value) {
                     document.getElementById("parbaude").innerHTML = "Pareizi!";
-                } else { document.getElementById("parbaude").innerHTML = "Nepareizi!" }
+                } else { document.getElementById("parbaude").innerHTML = "Nepareizi! Pareizā atbilde ir " + SK +"!"}
                 console.log(sk1 - sk2);
             } else if (darbiba == db[2]) {
                 let SK = sk1 * sk2;
                 if (SK == document.getElementById("atbilde").value) {
                     document.getElementById("parbaude").innerHTML = "Pareizi!";
-                } else { document.getElementById("parbaude").innerHTML = "Nepareizi!" }
+                } else { document.getElementById("parbaude").innerHTML = "Nepareizi! Pareizā atbilde ir " + SK +"!"}
                 console.log(sk1 * sk2)
             } else if (darbiba == db[3]) {
                 let SK = sk1 / sk2;
                 if (SK == document.getElementById("atbilde").value) {
                     document.getElementById("parbaude").innerHTML = "Pareizi!";
-                } else { document.getElementById("parbaude").innerHTML = "Nepareizi!" }
+                } else { document.getElementById("parbaude").innerHTML = "Nepareizi! Pareizā atbilde ir " + SK +"!"}
                 console.log(sk1 / sk2)
             };
 
